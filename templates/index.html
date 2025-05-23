@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lol</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="static/index.css">
 </head>
 <body>
    <form action="">
@@ -24,13 +24,14 @@
 
 
      <div id="input2">
-    <label for="certificate-type">Select certificate-type</label><br>
-  <select id="certificate-type" name="certificate-type" required>
+    <label for="certificate-type">Enter certificate-type</label><br>
+  <!-- <select id="certificate-type" name="certificate-type" required>
     <option value="" disabled selected>Select a certificate</option>
     <option value="a">a</option>
     <option value="b">b</option>
     <option value="c">c</option>
-  </select>
+  </select> -->
+  <input type="text" name="certificate-type" id="certificate-type" placeholder="Enter certificate type" required>
      </div>
 
       <div id="input3">
@@ -48,11 +49,14 @@
   <div id="name-preview"></div>
       </div>
 
+      <div id="result"> 
+      </div>
 
 
 
 
 
-    <script src="index.js"></script>
+
+    <script src="static/index.js"></script>
 </body>
 </html>

@@ -18,13 +18,13 @@ select {
 
 #input1{
     display: inline-block;
-    margin-left: 10vw;
+    margin-left: 5vw;
     margin-top: 5vh;
 }
 #input2{
     display: inline-block;
     margin-left: 5vw;
-    margin-top: 5vh;
+    margin-top: 2vh;
 }
 #input3{
     display: inline-block;
@@ -34,8 +34,8 @@ select {
 #image-preview{
     display: block;
     position: absolute;
-    left: 10%;
-    top: 20%;
+    left: 10vw;
+    top: 20vh;
     background-position: center;
     background-size: cover;
 }
@@ -44,14 +44,14 @@ button{
     background-color: blue;
     border-radius: 10px;
     height: 5vh;
-    width: 7vw;
+    width: 9vw;
     color: white;
 }
 .crosshair-line {
       position: fixed;
       background-color: red;
       pointer-events: none; /* Allow mouse clicks through it */
-      z-index: 10000;
+      z-index: 10;
       visibility: hidden;
 }
 
@@ -67,7 +67,41 @@ button{
 #name-preview{
     color: black;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 18px;
+    font-size: 26px;
     opacity: 0;
-    z-index: 10001;
+    z-index: 11;
+    position: fixed;
+}
+#result{
+    position: fixed;
+    color:rgb(255, 136, 0);
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 26px;
+    border: 1px solid white;
+    height: 20vh;
+    width: 15vw;
+    text-align: center;
+    left: 40vw;
+    top: 40vh;
+    box-sizing: border-box;
+    padding-top:2.5vh;
+    background-color: rgba(51, 0, 71, 0.733);
+    border-radius: 10px;
+    visibility: hidden;
+    z-index:11 ;
+}
+#certificate-type{
+    height: 4vh;
+    margin-top: 1vh;
+}
+#Reload{
+    height: 4vh;
+    width: 9vw;
+    border: 2px solid white;
+    background-color: rgb(255, 98, 98);
+    color: white;
+    border-radius: 10px;
+    position: relative;
+    right: 1vw;
 }
